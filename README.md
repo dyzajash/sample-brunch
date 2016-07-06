@@ -1,4 +1,4 @@
-# Brunch + Babel/ES6 + SASS
+# Brunch + Babel/ES6 + SASS (with Bourbon/Neat)
 
 This is a simple JS skeleton for [Brunch](http://brunch.io).
 
@@ -19,6 +19,10 @@ Clone this repo manually or use `brunch new [project_name] -s [this_repo_url]`
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
     * Place static files you want to be copied from `app/assets/` to `public/`.
     * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+
+## Bourbon & Neat
+
+Simply uncomment this functionality from brunch-config.js, main.scss and package.json and then run `npm install`.
 
 ## ES7
 
